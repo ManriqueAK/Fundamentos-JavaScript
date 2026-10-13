@@ -10,3 +10,9 @@ console.log(ficha + " : "  + typeof ficha);
 console.log(age + " : "  + typeof age);
 console.log(promedio + " : "  + typeof promedio);
 console.log(estado + " : "  + typeof estado);
+
+let sinValor = null;
+console.log(sinValor);
+sinValor = "Nuevo valor";
+console.log(sinValor);
+
