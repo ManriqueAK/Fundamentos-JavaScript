@@ -10,7 +10,7 @@ let n = Number(prompt("Cuántas notas desea ingresar: "));
 let j = 1;
 let promedio = 0;
 
-while (j <= n) {
+while (n !=0 ) {
     let nota = Number(prompt("Nota: "));
     promedio += nota;
     j++;
