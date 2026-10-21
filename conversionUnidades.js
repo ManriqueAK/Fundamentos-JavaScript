@@ -14,7 +14,7 @@ function calculatorLenght (value , option) {
     }
 }
 
-function calculatorMass (value, option) {
+function calculatorMass (value  , option) {
     switch(option) {
         case 1 :
             return (`${(value * 0.45359).toFixed(2)} kg`);
@@ -33,7 +33,8 @@ function calculatorMass (value, option) {
     }
 }
 
-let app = Number(prompt("Elija una aplicación:\n1. Conversión de unidades de longitud\n2. Conversión de unidades de masa"));
+
+let app = Number(prompt("Elija una aplicación:\n1. Conversión de unidades de longitud\n2. Conversión de unidades de masa\n3. Calculadora de densidad"));
 
 if (app == 1) {
     option = Number(prompt("Conversión:\n1. centímetros a pulgadas\n2. centímetros a pies\n3. centímetros a metros"));
@@ -43,6 +44,9 @@ if (app == 1) {
     option = Number(prompt("Conversión:\n1. libras a kilos\n2. arrobas a libras\n3. arrobas a kilos\n4. gramos a onzas"));
     value = Number(prompt("Valor: "));
     alert(calculatorMass(value, option));
+} else if (app == 3) {
+    value = Number(prompt("Masa (g): "));
+    volume = Number(prompt("Volumen (cm3): "));
+    alert(`La densidad de tu compuesto es de ${value/volume} g/cm3`);
 } else {
-    alert("Valor no válido")
-}
+    alert("Valor no válido") }
