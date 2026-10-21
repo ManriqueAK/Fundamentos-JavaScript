@@ -25,3 +25,22 @@ console.log(codeLanguages.length); //cuenta los elementos del array
 
 console.log(codeLanguages.includes("PHP")); //devuelve un true o false si el elemento existe en el array
 console.log(codeLanguages.includes("Python"));
+
+for (let i = 0 ; i < codeLanguages.lenght ; i++) {
+    console.log(codeLanguages[i]);
+}
+
+
+for (language of codeLanguages) {
+    console.log(language);
+}
+
+codeLanguages.forEach(function(lenguaje){console.log(lenguaje)});
+
+//concatenar dos arrays
+
+let languagesFrontend = ["HTML" , "CSS" , "JavaScript"];
+let lannguagesBackend = ["Python" , "PHP" , "Java" , "C#"];
+
+let languages = languagesFrontend.concat(lannguagesBackend);
+console.log(languages);
