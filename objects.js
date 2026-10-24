@@ -25,6 +25,9 @@ function aprendizSena (nombre, apellido, correo, programa) {
     this.apellido = apellido;
     this.correo = correo;
     this.programa = programa;
+    this.saludar = function () {
+        console.log("Hola, mundo");
+    }
 }
 
 let aprendiz1 = new aprendizSena("Felipe" , "Sandoval" , "correofalso456@gmail.com" , "ADSO");
@@ -33,3 +36,5 @@ let aprendiz2 = new aprendizSena("Pepito" , "Perez" , "correofalso789@gmail.com"
 console.log(aprendiz2);
 
 console.log(typeof(aprendiz1));
+console.log(aprendiz2.nombre);
+console.log(aprendiz1.saludar());
