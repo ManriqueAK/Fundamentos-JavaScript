@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head></head>
+
+    <body onload="cargarPagina()">
+
+        <h1>Eventos en JavaScript</h1>
+
+        <button onclick="alert('Hola')">Boton</button>
+
+        <button onclick="saludar()">Boton 2</button>
+
+        <button id="boton3">Boton3</button>
+
+        <button id="boton4">Boton 4</button>
+
+        <button id="btnDate">Fecha actual</button>
+        
+        <p id="fecha"></p>
+
+        <div id="box" style="width: 250px; height: 100px; border: 2px solid black; padding: 10px;"></div>
+
+        <p id="cursor"></p>
+        
+        <input type="text" id="tecla" placeholder="Presiona una tecla">
+        <p id="mostrarTecla"></p>
+
+        <!--Propagación de eventos-->
+
+        <div id="myDiv" style="background-color: lightblue; padding: 20px;"> <!--Contenedor-->
+            <p id="myP" style=" background-color: lightcoral; padding: 10px;"></p> <!--Parrafo interno-->
+        </div>
+
+        
+
+        <script src="eventos.js"></script>
+    </body>
+
+</html>

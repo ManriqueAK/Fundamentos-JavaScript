@@ -16,3 +16,103 @@
     width: 400px;
     text-align: center;
 }
+
+.tachado {
+    text-decoration: line-through;
+    cursor: pointer;
+    color: black;
+}
+
+.botonEliminar {
+    background-color: rgb(199, 29, 86);
+    color: black;
+    width: 150px;
+    font-weight: bold;
+    height: 40px;
+    margin: 20px;
+    border: 3px solid black;
+}
+
+.botones {
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 24px;
+    height: 90px;
+    width: 240px;
+    border-radius: 30px;
+}
+
+#carrusel {
+    display: flex;
+    margin: auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    height: 530px;
+    background-color: white;
+    padding: 30px;
+    justify-content: center;
+    border: 5px solid rgb(157, 235, 245);
+    border-radius: 10px;
+}
+
+#formulario label {
+    font-size: 20px;
+}
+
+#formulario input {
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#subir {
+    background-color: rgb(157, 235, 245);
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 4px solid black;
+}
+
+#agregar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    justify-content: center;
+    border: 5px solid rgb(157, 235, 245);
+    border-radius: 10px;
+}
+
+#agregar input {
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#btn-enviar {
+    background-color: rgb(157, 235, 245);
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+}
